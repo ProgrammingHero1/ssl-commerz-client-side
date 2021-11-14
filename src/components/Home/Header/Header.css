@@ -1,0 +1,18 @@
+.header-container {
+    
+    position: relative;
+    /* background-color: #f8f8f8; */
+    background-size: cover;
+}
+
+.header-container::after {
+    height: 700px;
+    content: ' ';
+    position: absolute;
+    top: 0;
+    width: 44%;
+    right: 0;
+    background-image: url(../../../images/banner_image.png);
+    background-repeat: no-repeat;
+    z-index: -50;
+}
